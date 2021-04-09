@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 327765199}
   - component: {fileID: 327765201}
   - component: {fileID: 327765200}
+  - component: {fileID: 327765202}
   m_Layer: 0
   m_Name: LogoMapacheContainer
   m_TagString: Untagged
@@ -199,6 +200,19 @@ MonoBehaviour:
   - {fileID: 990045760}
   - {fileID: 768798635}
   - {fileID: 803043751}
+--- !u!114 &327765202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327765198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92b01edffc4ddd4dbad1936d181dbe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: 1
 --- !u!1 &592997599
 GameObject:
   m_ObjectHideFlags: 0
